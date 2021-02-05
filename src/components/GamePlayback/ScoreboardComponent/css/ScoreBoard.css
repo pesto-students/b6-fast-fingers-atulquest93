@@ -1,0 +1,23 @@
+:root {
+  --light-red: #ff5155;
+}
+
+.scoreboard-container {
+  width: 246px;
+  height: 493px;
+  border-radius: 15px;
+  border: solid 3px var(--light-red);
+  padding: 10px;
+  overflow: scroll;
+}
+
+.scoreboard-container .scoreboard-heading {
+  text-align: center;
+  font-size: 20px;
+}
+
+.scoreboard-container .scores {
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+}
