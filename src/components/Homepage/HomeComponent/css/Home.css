@@ -1,0 +1,155 @@
+@font-face {
+  font-family: "LaserCorpsGradient";
+  src: local('LaserCorpsGradient'), url(../../../../assets/fonts/lasercorpsgrad.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: local('Gotham'), url(../../../../assets/fonts/GothamBookRegular.otf) format('otf');
+}
+
+
+@font-face {
+  font-family: "Breamcatcher";
+  src: local('Breamcatcher'), url(../../../../assets/fonts/breamcatcher.ttf) format('ttf');
+}
+
+.home-container {
+  padding-top: 95px;
+}
+
+.keyboard-icon {
+  width: 234px;
+  height: 156px;
+  object-fit: contain;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title-section {
+  padding-top: 45px;
+  text-align: center;
+}
+
+.title-section .heading {
+  font-family: "LaserCorpsGradient";
+  font-size: 61px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+}
+
+.title-section .tagline {
+  font-family: "Gotham";
+  font-size: 26px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: center;
+  overflow: hidden;
+}
+
+.tagline:before,
+.tagline:after {
+  background-color: var(--text-color);
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 125px;
+}
+
+.tagline:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.tagline:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+.home-user-input-area {
+  padding-top: 55px;
+  display: grid;
+  justify-content: center;
+  grid-gap: 10px;
+}
+
+.home-user-input-area input {
+  width: 622px;
+  height: 70px;
+  opacity: 0.59;
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: none;
+  padding-left: 32px;
+  font-size: 35px;
+}
+
+.home-user-input-area input::placeholder {
+  font-family: "Breamcatcher";
+  font-size: 35px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #032228;
+}
+
+.home-user-input-area select {
+  width: 656px;
+  height: 70px;
+  border-radius: 4px;
+  border: solid 1px #ffffff;
+  font-size: 35px;
+  font-family: "Breamcatcher";
+  line-height: 1.2;
+  color: #97a5a7;
+  padding-left: 32px;
+}
+
+.home-user-input-area select option {
+  font-size: 25px;
+  font-family: "Breamcatcher";
+  line-height: 1.2;
+  color: #97a5a7;
+}
+
+.home-start-game-area {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-start-game-area .start-game {
+  cursor: pointer;
+  display: block;
+  width: 307px;
+  height: 48px;
+  text-shadow: 0 0 16px rgba(0, 0, 0, 0.16);
+  font-family: Gotham;
+  font-size: 40px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--light-red);
+}
+
+
+.home-start-game-area .play-icon {
+  width: 75px;
+  height: 75px;
+}

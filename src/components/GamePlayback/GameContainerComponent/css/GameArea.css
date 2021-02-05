@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Gotham";
+  src: local('Gotham'), url(../../../../assets/fonts/GothamBookRegular.otf) format('otf');
+}
+
+.green {
+  color: #54ba18;
+}
+
+.blue {
+  color: #445298
+}
+
+.red {
+  color: #ff0000
+}
+
+.game-area-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  padding-top: 50px;
+  display: grid;
+}
+
+.game-area-container .random-word {
+  text-shadow: 0 0 16px rgba(0, 0, 0, 0.16);
+  font-family: "Gotham";
+  font-size: 72px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.game-area-container input {
+  margin-top: 20px;
+  width: 622px;
+  height: 90px;
+  opacity: 0.59;
+  border-radius: 15px;
+  box-shadow: 0 3px 16px 0 rgba(0, 0, 0, 0.8);
+  border: none;
+  background-color: #ffffff;
+  font-size: 62px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
